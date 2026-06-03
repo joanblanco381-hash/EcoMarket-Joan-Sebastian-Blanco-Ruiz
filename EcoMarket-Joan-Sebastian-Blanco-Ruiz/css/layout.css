@@ -1,0 +1,144 @@
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 30px;
+}
+
+.logo-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-texto {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2E5A44;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #2E5A44;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #1b3628;
+}
+
+.iconos-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero {
+    height: 200px;
+    background-color: rgb(218, 247, 213);
+    border-radius: 10px;
+    align-items: center;
+    padding: 80px;
+    text-align: center;
+    color: #2E5A44;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.catalogo-grid, section:has(.card) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: beige;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(218, 247, 213);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-bottom {
+    background-color: rgb(218, 247, 213);
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.contacto {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .hero {
+        height: auto;
+        padding: 40px 20px;
+        font-size: 18px;
+    }
+
+    .catalogo-grid, section:has(.card) {
+        grid-template-columns: repeat(auto-fit, 280px);
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .card {
+        width: 280px;
+        min-width: 280px;
+    }
+
+    .contacto form {
+        width: 100%;
+        max-width: 320px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+}

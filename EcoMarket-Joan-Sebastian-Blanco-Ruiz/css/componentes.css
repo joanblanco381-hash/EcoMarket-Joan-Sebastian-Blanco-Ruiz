@@ -1,0 +1,98 @@
+.logo-img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.iconos-header img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+button {
+    background: #2d5a27;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    width: 280px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    padding: 20px;
+    height: auto;
+    animation: joan 3s infinite;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-family: 'Segoe UI', sans-serif;
+    color: #2E5A44;
+    margin: 15px 0 10px 0;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+.precio {
+    font-family: 'Segoe UI', sans-serif;
+    color: #2d5a27;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 5px 0 10px 0;
+}
+
+.card p {
+    font-family: 'Segoe UI', sans-serif;
+    color: #4a5568;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.card button {
+    background: #2d5a27;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: auto;
+}
+
+.card button:hover {
+    background-color: #1b3628;
+    transform: scale(1.02);
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #129406;
+}
+
+.contacto textarea {
+    height: 150px;
+}
