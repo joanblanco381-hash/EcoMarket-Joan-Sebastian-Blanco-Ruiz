@@ -19,13 +19,20 @@ EcoMarket es una página web desarrollada con HTML y CSS que tiene como objetivo
 
 ## Estructura del proyecto
 EcoMarket/
+
 │
+
 ├── indexhome.html
+
 ├── css/
+
 │   └── estilos.css
+
 ├── img/
+
 │   ├── logo.png
 │   └── productos/
+
 └── README.md
 
 ## Instalación y uso
